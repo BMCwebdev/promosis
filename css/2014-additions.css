@@ -71,3 +71,11 @@ label {
 .prize-text p {
 	width:100%;
 }
+
+.trucklist {
+	color:#000000;
+}
+
+#TB_iframeContent {
+	width:795px !important;
+}
