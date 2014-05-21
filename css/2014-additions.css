@@ -64,5 +64,10 @@ label {
 }
 
 .prize-text {
-	margin-left: 1px;
+    margin-top: -11%;
+    padding-bottom: 11%;
+    text-align: center;
+}
+.prize-text p {
+	width:100%;
 }
