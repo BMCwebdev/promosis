@@ -33,8 +33,8 @@ a:active{color:;text-decoration:;}
 #content{background-image:url("../images/bg.png");background-color:#40403e;margin:0 auto;width:;}
 .headline{margin:0 auto;width:58%;}
 .sidebar{float:right;padding:4% 0 0 2%;font-size:1.125em;margin-left: 4.5%;font-family:'frankgotdem',Arial,Helvetica,san-serif;}
-.sidebar div{padding:;margin-bottom:20px;}
-.sidebar a{color:#5d4925;text-decoration:none;font-family:'frankgotdem',Arial,Helvetica,san-serif;font-weight:bold;}
+.sidebar div{padding:;margin-bottom:20px;padding-top: 10px;}
+.sidebar a{color:#5d4925;text-decoration:none;font-family:'frankgotdem',Arial,Helvetica,san-serif;font-weight:bold;font-size: 0.9em;}
 .sidebar a:link, .sidebar a:visited{color:#5d4925;}
 .sidebar a:hover{color:#e0a345;}
 .sidebar a:active{color:#e0a345;}
@@ -101,15 +101,15 @@ input[type='checkbox']{outline:;height:;}
 #hover-dts{position:relative;height:112px;}
 #hover-dts li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
 #hover-dts li, #hover-dts a{height:112px;display:block;}
-#hover-sbmt{position:relative;height:78px;}
+#hover-sbmt{position:relative;height:57px;width: 137px;}
 #hover-sbmt li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
-#hover-sbmt li, #hover-sbmt a{height:78px;display:block;}
+#hover-sbmt li, #hover-sbmt a{height:56px;display:block;}
 #btn-dts{left:0px;width:272px;}
 #btn-dts{background:url('../images/opt-btn-hv2.png') 0 0;}
 #btn-dts a:hover{background:url('../images/opt-btn-hv2.png') 0 -112px;}
 #btn-sbmt{left:0px;width:272px;}
-#btn-sbmt{background:url('../images/opt-btn-sbmt.png') repeat-y 0 0;background-size:70%;}
-#btn-sbmt a:hover{background:url('../images/opt-btn-sbmt.png') repeat-y 0 -80px;background-size:71%;}
+#btn-sbmt{background:url('../images/opt-btn-sbmt.png') repeat-y 0 0;background-size:50%;}
+#btn-sbmt a:hover{background:url('../images/opt-btn-sbmt.png') repeat-y 0 -58px;background-size:51%;}
 #hover-fb{position:relative;height:113px;width:113px;}
 #hover-fb li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
 #hover-fb li, #hover-fb a{height:113px;display:block;}

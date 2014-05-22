@@ -48,6 +48,13 @@ label {
     margin: 0 auto;
 }
 
+.col-centered2{
+/*
+    float: inherit;
+*/
+    margin: 0 auto;
+}
+
 .sidebar .col-lg-6 .row .col-xs-6 {
 	margin-right:40px;
 }
@@ -58,6 +65,18 @@ label {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 992px) {
+.sidebar a{color:#5d4925;text-decoration:none;font-family:'frankgotdem',Arial,Helvetica,san-serif;font-weight:bold;font-size: 0.9em;}
+.sidebarwhiteheight {padding-top:20px;padding-bottom:20px;}
+}
+
+@media (max-width: 590px) {
+.sidebarwhiteheight {padding-top:25px;padding-bottom:25px;}
+}
+
+.sidebarwhiteheight {padding-top:25px;padding-bottom:25px;}
+
 
 .greyBG {
 	background: url("../images/bg-brown.png");
@@ -78,4 +97,35 @@ label {
 
 #TB_iframeContent {
 	width:795px !important;
+}
+.white {
+	background-color: #FFFFFF;
+}
+
+.nopadding {
+	padding: 0px !important;
+}
+
+.max-width-1002 img {
+	max-width: 100.2% !important;
+}
+
+
+.prize-text .on {
+display: block;	
+text-align: center;
+}
+
+.prize-text:hover .on {
+display: none;		
+text-align: center;
+}
+.prize-text .off {
+display: none;		
+text-align: center;
+}
+
+.prize-text:hover .off {
+display: block;		
+text-align: center;
 }
