@@ -111,21 +111,25 @@ label {
 }
 
 
-.prize-text .on {
+.butt .on {
 display: block;	
 text-align: center;
 }
 
-.prize-text:hover .on {
+.butt:hover .on {
 display: none;		
 text-align: center;
 }
-.prize-text .off {
+.butt .off {
 display: none;		
 text-align: center;
 }
 
-.prize-text:hover .off {
+.butt:hover .off {
 display: block;		
 text-align: center;
+}
+
+select {
+-webkit-appearance: menulist-button;
 }
