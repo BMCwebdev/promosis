@@ -32,12 +32,13 @@ a:active{color:;text-decoration:;}
 #right-nav a:hover{color:#E0A345;text-decoration:none;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.4);font-family:'frankgotdem',Arial,Helvetica,san-serif;font-size:1em;}
 #content{background-image:url("../images/bg.png");background-color:#40403e;margin:0 auto;width:;}
 .headline{margin:0 auto;width:58%;}
-.sidebar{float:right;padding:4% 0 0 2%;font-size:1.125em;margin-left: 4.5%;font-family:'frankgotdem',Arial,Helvetica,san-serif;}
-.sidebar div{padding:;margin-bottom:20px;padding-top: 10px;}
-.sidebar a{color:#5d4925;text-decoration:none;font-family:'frankgotdem',Arial,Helvetica,san-serif;font-weight:bold;font-size: 0.9em;}
-.sidebar a:link, .sidebar a:visited{color:#5d4925;}
-.sidebar a:hover{color:#e0a345;}
-.sidebar a:active{color:#e0a345;}
+/*.bottomrow{float:right;padding:4% 0 0 2%;font-size:1.125em;margin-left: 4.5%;font-family:'frankgotdem',Arial,Helvetica,san-serif;}*/
+.bottomrow{padding-bottom:20px; padding-top:20px;}
+.bottomrow div{padding:;margin-bottom:20px;padding-top: 10px;}
+.bottomrow a{color:#5d4925;text-decoration:none;font-family:'frankgotdem',Arial,Helvetica,san-serif;font-weight:bold;font-size: 0.9em;}
+.bottomrow a:link, .bottomrow a:visited{color:#5d4925;}
+.bottomrow a:hover{color:#e0a345;}
+.bottomrow a:active{color:#e0a345;}
 .p1{background-image:url("../images/sidebar-trucks/F-150_Revised.jpg");height:282px;width:326px;background-repeat:no-repeat;background-color:#ffffff;}
 .p1 a{}
 .p2{background-image:url("../images/sidebar-trucks/Super_Duty_Revised.jpg");height:282px;width:326px;background-repeat:no-repeat;background-color:#ffffff;}

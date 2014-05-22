@@ -83,7 +83,7 @@ label {
 }
 
 .prize-text {
-    margin-top: -11%;
+    margin-top: -5%;
     padding-bottom: 11%;
     text-align: center;
 }
@@ -96,7 +96,9 @@ label {
 }
 
 #TB_iframeContent {
-	width:795px !important;
+	width:100% !important;
+	margin: 0 0 100px;
+	overflow: scroll;
 }
 .white {
 	background-color: #FFFFFF;
@@ -132,4 +134,30 @@ text-align: center;
 
 select {
 -webkit-appearance: menulist-button;
+}
+
+.mobile-drop {
+    margin-left: 30%;
+    margin-top: 3px;
+    position: relative;
+    right: 0;
+    width: 75%;
+}
+
+#form h3 {
+	color: #E0A345;
+}
+.no-bottom {
+	padding-bottom: 0px;
+}
+.floatL {
+	float: left;
+}
+.if-win {
+	clear:both;
+	padding-top:15px;
+	float:left;
+}
+a:hover {
+	text-decoration: underline !important;
 }

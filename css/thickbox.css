@@ -24,4 +24,4 @@
 * html #TB_load{position:absolute;margin-top:expression(0 - parseInt(this.offsetHeight/2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');}
 #TB_HideSelect{z-index:99;position:fixed;top:0;left:0;background-color:#3f3f3d;border:none;filter:alpha(opacity=0);-moz-opacity:0;opacity:0;height:100%;width:100%;}
 * html #TB_HideSelect{position:absolute;height:expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight:document.body.offsetHeight + 'px');}
-#TB_iframeContent{clear:both;border:none;background:url('../images/bg.png') #3f3f3d;margin-bottom:-1px;margin-top:1px;_margin-bottom:1px;}
+#TB_iframeContent{clear:both;border:none;background:url('../images/bg.png') #3f3f3d;margin-bottom:-1px;margin-top:1px;width:100%;margin-bottom:1px;}
