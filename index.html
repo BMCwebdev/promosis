@@ -30,7 +30,16 @@
 <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 
-
+<!-- FACEBOOK LIKE SCRIPT -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- END FACEBOOK LIKE SCRIPT -->
 
 
 <!--
@@ -336,9 +345,17 @@ BUILD YOUR F-150
 	<div id="content">
 		<div class="headline">
 			<img src="images/F-150-hero-shot/banner.jpg" alt="F-150 Ford Outfitter Insider Adventure Giveaway"/>
-			<!-- <span id="divider"><img src="images/divider8.png" alt="divider3" /></span> --> <!-- width="1400" height="179"  -->
 		</div>
 	</div>
+
+
+	<div id="contentmobile">
+		<div class="headline">
+			<img src="images/F-150-hero-shot/banner-mobile.jpg" alt="F-150 Ford Outfitter Insider Adventure Giveaway"/>
+		</div>
+	</div>
+
+
 <!--
 	<div id="container-opt">
 		<div id="tip">
@@ -646,7 +663,7 @@ BUILD YOUR F-150
 										<input  type="checkbox"  value="1" style="width:20px; "/><label>2015 F-150</label>
 
 <br />										
-										<input  type="checkbox" value="1" style="width:20px; "/><label>Super Duty<sup>&reg;</sup></label>
+										<input  type="checkbox" value="1" style="width:20px; "/><label>Super Duty<span style="font-weight:normal;color:#ffffff;"><sup>&reg;</sup></span></label>
 										</div>
 
 <div><img src="images/spacer.gif" alt="spacer" width="1" height="10" /></div>
@@ -688,7 +705,7 @@ BUILD YOUR F-150
 											</optgroup>
 											<optgroup label="Ford Future Vehicles">
 												<option value="2015 EXPEDITION">2015 EXPEDITION</option>
-												<option value="2015 F-150">2015 F-150</option>
+												<!-- <option value="2015 F-150">2015 F-150</option> -->
 												<option value="2015 FOCUS">2015 FOCUS</option>
 												<option value="2015 MUSTANG">2015 MUSTANG</option>
 											</optgroup>
@@ -740,9 +757,10 @@ BUILD YOUR F-150
 
 
 
-		<div class="prize col-xs-12 col-sm-6 col-md-4 col-lg-4" style="padding-top:45px;">
+		<div class="prize col-xs-12 col-sm-6 col-md-4 col-lg-4" style="padding-top:41px;">
 			
 				<div class="prize col-lg-10 col-md-12 col-sm-12 col-xs-12 col-centered">
+				<h3 class="prizetitle">The Prizes</h3>
 				<img src="images/weekend-trips/August-Walleye.jpg" alt="August-Walleye"/>
 				<div class="prize-text">
 				<div class="butt">
@@ -953,7 +971,7 @@ BUILD YOUR F-150
 -->
 		
 		<div class="clearfloat" ></div>
-
+<div class="fb-like" data-href="https://www.facebook.com/fordtrucks" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
 		<div class="col-xs-12">
 			<div id="footer-container">

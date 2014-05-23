@@ -74,6 +74,25 @@ label {
 @media (max-width: 590px) {
 .sidebarwhiteheight {padding-top:25px;padding-bottom:25px;}
 }
+/*
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+*/
+
+
+@media (max-width: 767px) {
+  #content {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #contentmobile {
+    display: none;
+  }
+}
+
 
 .sidebarwhiteheight {padding-top:25px;padding-bottom:25px;}
 
@@ -169,4 +188,8 @@ select {
 	line-height: 30px;
 	padding-left: 1.5em;
     text-indent:-1.5em;
+}
+.prizetitle {
+	color:#E0A345;
+	padding-bottom:4px;
 }
