@@ -158,6 +158,15 @@ select {
 	padding-top:15px;
 	float:left;
 }
-a:hover {
-	text-decoration: underline !important;
+.height20{
+	height: 20px;
+}
+.height40{
+	height: 40px;
+}
+
+.checkbox label {
+	line-height: 30px;
+	padding-left: 1.5em;
+    text-indent:-1.5em;
 }

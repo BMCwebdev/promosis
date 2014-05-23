@@ -11,9 +11,9 @@ p{font-family:'frankgotboo',Arial,Helvetica,san-serif;margin:0;padding:0;font-si
 span{color:#e0a345;}
 sup{font-size:10px;}
 .logo{float:left;margin-top:10px;margin-right:20px;padding-left:25px;width:17%;}
-a:link, a:visited{color:#ffffff;text-decoration:none;}
+a:link, a:visited{color:#ffffff;text-decoration:underline;}
 a:hover{color:#ffffff;text-decoration:underline;}
-a:active{color:;text-decoration:;}
+a:active{color:;text-decoration:underline;}
 #head-container{background-color:#222220;background-image:url("../images/bg-nav.png");height:105px;}
 #header{margin:0 auto;width:100%;}
 #mobile-header{display:none;}
@@ -95,7 +95,7 @@ input[type='checkbox']{outline:;height:;}
 #footer-container{background-color:#161616;clear:both;padding:40px 0;}
 #footer{margin:0 auto;width:57%;text-align:center;}
 #footer p{color:#646464;font-size:0.875em;}
-#footer a{color:#646464;text-decoration:none;font-size:0.875em;font-family:'frankgotdem',Arial,Helvetica,san-serif;}
+#footer a{color:#646464;text-decoration:underline;font-size:0.875em;font-family:'frankgotdem',Arial,Helvetica,san-serif;}
 #footer a:hover{color:#928C85;}
 #footer a:active{color:#E0A345;}
 #footer img{max-width:100%;}
