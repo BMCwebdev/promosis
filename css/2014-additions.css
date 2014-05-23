@@ -193,3 +193,7 @@ select {
 	color:#E0A345;
 	padding-bottom:4px;
 }
+.fb-like {
+	z-index: 999;
+	top: 30px;
+}
