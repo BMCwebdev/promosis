@@ -63,6 +63,7 @@ label {
   .prize {
     float: inherit;
     margin: 0 auto;
+    clear:both;
   }
 }
 
@@ -197,4 +198,14 @@ select {
 	z-index: 999;
 	top: 30px;
 	right: 10px;
+}
+
+@media (max-width: 767px) {
+.greyBG {
+	height:226px;}
+}
+
+@media (min-width: 768px) {
+.greyBG {
+	height:113px;}
 }
