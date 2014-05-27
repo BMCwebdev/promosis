@@ -316,7 +316,5 @@ function tb_detectMacXFF() {
   }
 }
 
-if ("ontouchstart" in document.documentElement){
-$('html').addClass('touch');
-}
+
 
