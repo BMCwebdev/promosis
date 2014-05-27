@@ -12,7 +12,9 @@
 <meta property="og:description" content="Enter the Ford Outfitter Insider Adventure Giveaway for a chance to win an F-150 and an ultimate adventure." />
 <meta property="og:image" content="http://creative.promosis.com/ford/images/thumb.jpg" />
 
+<!--
 <link type="text/css" href="css/thickbox.css" rel="stylesheet" />
+-->
 
 <link href="css/style.css?v=1.1" rel="stylesheet" type="text/css">
 
@@ -37,10 +39,12 @@
 <!-- END FACEBOOK LIKE SCRIPT -->
 
 
+<!--
 <script type="text/javascript" src="scripts/thickbox.js"></script>	
 
 <script type="text/javascript" language="javascript" src="scripts/lytebox.js"></script>
 <link rel="stylesheet" href="css/lytebox.css" type="text/css" media="screen" />
+-->
 
 <meta name="viewport" content="initial-scale=1.0, minimum-scale = 0.6, maximum-scale= 1.2" />
 
@@ -50,6 +54,35 @@
 <script src="headerassets/js/intercept.js" type="text/javascript"></script>
 <link href="headerassets/js/favicon-9d9b951c8da7cf45adeced7bc36e8184.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 <!-- END HEADER ASSETS -->
+
+<!-- COLORBOX -->
+<!--
+<script src="scripts/jquery.colorbox.js" type="text/javascript"></script>
+-->
+<!-- end colorbox -->
+
+<!-- FancyBox -->
+<!--
+<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="scripts/fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" href="css/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="scripts/fancybox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+-->
+<!-- END FANCYBOX -->
+
+
+
+<!--
+PLAIN MODAL
+<script type="text/javascript" src="scripts/jquery.plainmodal.js"></script>
+<script type="text/javascript" src="scripts/jquery.plainmodal.min.js"></script>
+END PLAIN MODAL
+-->
+
+
+
+
+
 </head>
 
 <body class='application-index'>
@@ -236,6 +269,9 @@ BUILD YOUR F-150
 			<img src="images/F-150-hero-shot/banner-mobile.jpg" alt="F-150 Ford Outfitter Insider Adventure Giveaway"/>
 		</div>
 	</div>
+	
+	
+	
 	
 	<div id="form-bck" class="col-xs-12">
 		<div class="row" >  <!-- id="form-container" -->
@@ -494,7 +530,7 @@ BUILD YOUR F-150
 				<img src="images/weekend-trips/August-Walleye.jpg" alt="August-Walleye"/>
 				<div class="prize-text">
 				<div class="butt">
-					<a class="thickbox" href="walleye.html?keepThis=true&TB_iframe=true&height=400&width=800">
+					<a class="fancybox fancybox.iframe" rel="group" href="rules2014.html">
 						<div class="on"><img class="col-centered" src="images/detailsbutton1.png" alt="detailsbutton" width="25%" class="on" /></div>
 						<div class="off"><img class="col-centered" src="images/detailsbutton2.png" alt="detailsbutton" width="25%" class="off" /></div>
 					</a>
@@ -634,6 +670,7 @@ BUILD YOUR F-150
 		</div>
 
 <!--STICKY HEADER-->
+<!--
 <script>
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-41198037-1']);
@@ -717,8 +754,55 @@ BUILD YOUR F-150
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
+-->
 <script src="headerassets/js/application.js" type="text/javascript"></script>
+
 <!-- END STICKY HEADER -->
+
+<!-- FANCYBOX -->
+<!--
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+-->
+<!-- END FANCYBOX -->
+
+<!-- COLORBOX -->
+<!--
+<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+-->
+<!-- END COLORBOX -->
 
 </body>
 
