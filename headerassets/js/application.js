@@ -3535,7 +3535,7 @@ function Swipe(e, t) {
     }, window.__ga_track = function(e) {
         var n;
         t && t.length ? n = "widget:" + e.action : n = e.action;
-/*         if (e.type === "page") return _gaq.push([ "_trackPageview", e.action ]); */
+        if (e.type === "page") return _gaq.push([ "_trackPageview", e.action ]);
         if (e.type === "event") return _gaq.push([ "_trackEvent", e.event, n ]);
         if (e.type === "externallink") return _gaq.push([ "_trackEvent", e.category, n, e.label ]);
     }, $("#marquee-cta").on("click", function() {
@@ -3724,7 +3724,7 @@ function Swipe(e, t) {
             });
         }, e.prototype.checkScroll = function() {
             var e, t;
-/*             return t = $(document).scrollTop(), e = this.footer.position().top - window.innerHeight, t < e ? this.target.removeClass("sticky") : this.target.addClass("sticky"); */
+            return t = $(document).scrollTop(), e = this.footer.position().top - window.innerHeight, t < e ? this.target.removeClass("sticky") : this.target.addClass("sticky");
         }, e;
     }(), namespace("IMO", function(t) {
         return t.TruckBug = e;

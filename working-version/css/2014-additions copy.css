@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "FranklinGothicHeavy";
+    src: url(../fonts/frankgothea.ttf) format("truetype");
+}
+
+/*
+../fonts/frankgotboo.eot
+../fonts/frankgotboo.svg
+../fonts/frankgotboo.ttf
+../fonts/frankgotboo.woff
+../fonts/frankgotdem.eot
+../fonts/frankgotdem.svg
+../fonts/frankgotdem.ttf
+../fonts/frankgotdem.woff
+../fonts/frankgothea.eot
+../fonts/frankgothea.svg
+
+../fonts/frankgothea.woff
+*/
+
+
+/*---WEB Font---*/
+@font-face {
+  font-family: 'frankgotdem';
+  src: url('../fonts/frankgotdem.eot?') format('eot'), url('../fonts/frankgotdem.woff') format('woff'), url('../fonts/frankgotdem.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'frankgotboo';
+  src: url('../fonts/frankgotboo.eot?') format('eot'), url('../fonts/frankgotboo.woff') format('woff'), url('../fonts/frankgotboo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'frankgothea';
+  src: url('../fonts/frankgothea.eot?') format('eot'), url('../fonts/frankgothea.woff') format('woff'), url('../fonts/frankgothea.ttf') format('truetype');
+}
+
+
+.thick-border img {
+	border: 10px solid white;
+}
+
+.headline {
+	width: 100%;
+}
+
+.headline img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	min-width: 100%;
+}
+
+#headercopy {
+	text-transform:uppercase;
+	font-family: "FranklinGothicHeavy" !important;
+	letter-spacing: -0.1em;
+	font-weight:100;
+	font-color: white;
+	font-size: 8 em;
+}
+
+.options {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3.5%;
+    padding-bottom: 1.5%;
+    text-align: center;
+    width: 62%;
+}
+
+#TB_iframeContent {
+    background: url("../images/bg.png") repeat scroll 0 0 #3F3F3D;
+    clear: both;
+    margin-bottom: -1px;
+    margin-top: 1px;
+    }
+    
+#TB_window {
+	border: medium groove #FFFFFF;
+}
+    
+.prizes p {
+	line-height: 22px;
+}
+
+.prizes h3 {
+/*
+    font-weight: normal;
+*/
+    letter-spacing: 1px;
+    color: #E0A345;
+}
+
+#head h2 {
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+#head p {
+	line-height: 22px;
+}
+
+#details {
+    margin: auto;
+    text-align: center;
+    width: 73%;
+}
+
+.thick-border {
+	padding-top: 40px;
+}
+
+#hover-dts li, #hover-dts a {
+    display: block;
+    height: 112px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#head img {
+    position: relative;
+    right: 200px;
+    top: 15px;
+    width: 125%;
+    margin-bottom: -20px;
+}
+
+.bold-white {
+	font-weight: 900;
+	color: #ffffff;
+}
+
+.grey {
+	color: #848484;
+}
+
+.months-titles {
+	color: #FFFFFF;
+    font-family: 'frankgotdem',Arial,Helvetica,san-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/*
+current ford
+*/
+/*
+.btn {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 100px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    clear: both;
+    color: #5D4B2B;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 10px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+
+
+#btn-dts {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 100px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    clear: both;
+    color: #5D4B2B;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 10px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+*/
+
+
+
+#tip  {
+	margin: auto;
+}
+
+.prizebox {
+/*
+	float:left;
+	margin-right:39px;
+	margin-top:20px;
+	margin-bottom:40px;
+*/
+    float: left;
+    margin: auto;
+    padding: 10px 10px 25px;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    }
+
+.allprizes {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
