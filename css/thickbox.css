@@ -176,11 +176,11 @@
     margin-right: -59% !important;
     margin-top: 15% !important;
     width: 50% !important;
-    -webkit-overflow-scrolling:touch;
+    -webkit-overflow-scrolling: touch !important;
     }
     
     
     #TB_iframeContent {
 	    margin: 0px !important;
-	    -webkit-overflow-scrolling:touch
+	    -webkit-overflow-scrolling:touch !important;
     }
