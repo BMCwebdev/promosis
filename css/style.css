@@ -111,7 +111,7 @@ input[type='checkbox']{outline:;height:;}
 #btn-sbmt{left:0px;width:272px;}
 #btn-sbmt{background:url('../images/opt-btn-sbmt.png') repeat-y 0 0;background-size:50%;}
 #btn-sbmt a:hover{background:url('../images/opt-btn-sbmt.png') repeat-y 0 -58px;background-size:51%;}
-#hover-fb{position:relative;height:113px;width:113px;}
+#hover-fb{position:relative;height:113px;width:130px;}
 #hover-fb li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
 #hover-fb li, #hover-fb a{height:113px;display:block;}
 #btn-fb{left:0px;width:113px;}

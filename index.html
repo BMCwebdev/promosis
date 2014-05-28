@@ -35,6 +35,11 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <!-- END FACEBOOK LIKE SCRIPT -->
+<script>
+    $('a, .clickable').live('touchend', function(){
+    $(this).mouseout();
+    });
+</script>
 
 
 <script type="text/javascript" src="scripts/thickbox.js"></script>	
@@ -399,7 +404,7 @@ BUILD YOUR F-150
 										
 										<br />
 										
-										<input type="checkbox"  value="1" style="width:20px; "/><label ><span>*</span>Please email me communications including product information, offers, and incentives from Ford Motor Company and the local dealer.</label>
+										<input type="checkbox"  value="1" style="width:20px; "/><label ><span>*</span>Please email me communications including product information, offers, and incentives from Ford Motor Company and the local dealer. Requesting information from Ford Motor Company will not increase your chances of winning.</label>
 										
 										<br />
 										
@@ -590,28 +595,11 @@ BUILD YOUR F-150
 			</div>
 			
 			<div class="col-xs-6 col-xs-pull-1 col-sm-3 col-sm-pull-0 col-centered2">
-				<div id="hover-share" class="showlink col-centered" href="javascript:void(0)">
-					<li id="btn-share"><a href="#"></a></li>
-					<div class="popup" style="position: fixed; top: 277.5px; left: 642px; display: none;">
-						<br>
-							<img alt="Share us on your favorite social networks" style="width:200px;" src="/images/network.gif">
-						<br>
-								<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://adventure.thefordoutfitters.com/" data-event="{category: 'Onclick', action: 'fbshare'}" data-behavior="track-event">
-									<img alt="share social networks" src="/images/social-fb.jpg">
-								</a>
-						<br>
-								<a target="_blank" href="http://twitter.com/share?text=Enter%20the%20Ford%20Outfitter%20Insider%20Adventure%20Giveaway%20for%20a%20chance%20to%20win%20an%20F-150%20and%20an%20outdoor%20adventure.&url=https://adventure.thefordoutfitters.com/" data-event="{category: 'Onclick', action: 'tweet'}" data-behavior="track-event">
-									<img alt="share social networks" src="/images/social-tw.jpg">
-								</a>
-						<br>
-								<a target="_blank" href="mailto:?Subject=The%20Ford%20Outfitter%20Insider%20Adventure%20Giveaway&body=Enter%20the%20Ford%20Outfitter%20Insider%20Adventure%20Giveaway%20for%20a%20chance%20to%20win%20an%20F-150%20and%20an%20outdoor%20adventure.%20https%3A%2F%2Fadventure.thefordoutfitters.com/">
-									<img alt="share social networks" src="/images/social-em.jpg">
-								</a>
-						<table> </table>
-								<a class="close" href="javascript:void(0)" style="display: none;">
-									<img src="/images/close.png">
-								</a>
-					</div>
+				<div id="btn-share" class="col-centered">
+				
+				<div id="hover-u" class="col-centered">
+					<div id="btn-share"><a class="thickbox" href="share.html?keepThis=true&TB_iframe=true&height=250&width=53"></a></div>
+				</div>
 				</div>
 			</div>
 	</div><!-- END SOCIAL-CONTAINER -->

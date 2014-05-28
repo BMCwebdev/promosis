@@ -159,6 +159,10 @@
 	height:expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight:document.body.offsetHeight + 'px');
 }
 
+
+
+
+
 #TB_iframeContent {
 	clear:both;
 	border:none;
@@ -172,9 +176,9 @@
 
 #TB_window {
    display: block !important;
-    margin-left: -30% !important;
+    margin-left: -25% !important;
     margin-right: -59% !important;
-    margin-top: 15% !important;
+    margin-top: 8% !important;
     width: 50% !important;
     -webkit-overflow-scrolling: touch !important;
     overflow: auto !important;
@@ -187,3 +191,17 @@
 	        overflow: auto !important;
 
     }
+    
+    html.js body.application-index div#TB_window {
+    display: block !important;
+    margin-left: -15% !important;
+    margin-right: -59% !important;
+    margin-top: 8% !important;
+    overflow: auto !important;
+    width: 30% !important;
+    height: 235px;
+    }
+    
+html.js body.application-index div#TB_window iframe#TB_iframeContent {
+	height:90% !important;
+}
